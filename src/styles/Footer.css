@@ -1,0 +1,14 @@
+.footerContainer {
+    height: 20vh;
+    width: 100%;
+    background-color: #7b1e1e;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer img {
+    height: 8vh;
+    margin-right: 30px;
+}

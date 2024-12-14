@@ -1,0 +1,63 @@
+.sobre-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('../img/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background: url('../img/paisagem.jpeg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.info-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlights-section {
+    padding: 40px;
+}
+
+.highlights-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.highlight-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.highlight-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.highlight-item h3 {
+    margin: 10px 0;
+    color: #2a9d8f;
+}
